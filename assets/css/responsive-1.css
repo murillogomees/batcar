@@ -1,0 +1,626 @@
+.btnver_mobile {
+ position: relative;
+ top: 14px;
+}
+
+.btnmenos_mobile {
+  display:none;
+  position: relative;
+  top: 14px;
+}
+
+  .logo-footer {
+    display:inline;
+  }
+  
+  .logo-footer-mobile {
+    display:none;
+  }
+
+  .hidden_show {
+    display:none !important;
+  }
+
+  .menu_mobile_atendimento_content {
+    display:none;
+  }
+
+.activeline {
+    display:none;
+}
+
+.only_mobile {
+  display:none;
+}
+
+.fonte-mobile {
+  font-size:16px;
+}
+
+.list_filter_btn_box2 {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 16px;
+    position: static;
+    height: 45px;
+    left: 977px;
+    top: 0px;
+    background: #252B30;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 16px;
+    border: none; 
+}
+
+.list_filter_btn_box2 .list_filter_btn_content img {
+    left: 8%;
+}
+
+
+
+@media screen and (max-width:1199px) {
+  .h-container {
+  max-width: 1050px !important;
+  }
+  
+}
+
+.tag_detail {
+    background-color: #0094F4 !important;
+    height:37px !important;
+  }
+
+@media only screen and (max-width: 767px) {
+      .main_car_details_description_tags_box {
+    display: block !important;
+  }
+  
+  .main_car_details_description_tags_box_list {
+    display: block !important;
+    width: -webkit-fill-available !important;
+  }
+  
+  .main_car_details_description_tags_box_list li {
+    margin-bottom: 8px !important;
+  }
+  
+  .tag_detail {
+    display: inline-block !important;
+    
+  }
+  
+  .tag_detail img {
+    position:relative;
+    top: -5px;
+  }
+  
+  
+  .tag_detail span {
+    position: relative;
+    bottom: 5px;
+  }
+
+  }
+
+@media screen and (max-width: 410px ) {
+  .main_car_details_description_title_box {
+    width: max-content !important;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 767px) {
+  .filter_car_show_form {
+  margin-left:23%;
+  height:420px;
+  }
+  
+  .feature_car_area .f_car_slider_inner {
+    position: relative;
+    left: 80px;
+  }
+  
+  }
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 1150px) {
+  .car_list_more_info {
+    width: 155px !important;
+  }
+  
+  .car_list_more_info text {
+    font-size: 9px !important;
+  }
+  
+  .filter_car_show_form {
+    margin-left:50%;
+    height:422px;
+  }
+}
+
+@media screen and (min-width: 770px) {
+  .main_how_sell_box_area1_intro {
+    margin-top:65px;
+  }
+}
+
+@media only screen and (min-width: 1151px) and (max-width: 1199px) {
+  .car_list_more_info {
+    width:195px !important;
+  }
+}
+
+
+ @media only screen and (min-width: 601px) and (max-width: 1150px)  {
+   .taxi_slider_text {
+    padding-top:0;
+  }
+   .car_show_mb {
+    display: none !important;
+}
+   
+  .feature_car_area .f_car_slider_inner {
+   
+  }
+   
+   .filter_car_show_form {
+    width: 385px;
+  }
+   
+   .home_more_search_box  {
+     margin-top:95px;
+   }
+   
+   .want_buy_detail_mb {
+     display:none;
+   }
+   
+/*    .owl-carousel, .owl-carousel .owl-item {
+    margin: 0px 23px;
+  } */
+   
+  .car_company_slider .car_arrow .owl-prev, .car_company_slider .car_arrow .owl-next {
+    top: 25%;
+   }
+   
+   .f_widgets_inner {
+     flex-wrap: nowrap !important;
+   }
+   
+   .tablet_row {
+    left: -325px !important;
+   }
+   
+   .navbar-right-mobile {
+     display:none;
+   }
+   
+   .search_car_box_content {
+     width: 72%;
+   }
+   
+   
+   }
+   
+ 
+
+.car_show_filter_select select {
+  font-family: "Barlow", sans-serif; 
+}
+
+
+@media screen and (max-width: 600px) {
+  .fonte-mobile {
+  font-size:15px;
+  }
+  
+  select {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .car_show_filter_select select {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .filtro select {
+    font-family: "Barlow", sans-serif;
+  }
+  
+  .mini_menu_container {
+    display:none !important;
+  }
+  
+  .activeline {
+   display:initial;
+   position: static;
+   width: 50px;
+   height: 0px;
+   left: 4px;
+   top: 4px;
+   border-radius: 10px;
+   border: 2px solid #FCB200;
+   transform: rotate(90deg);
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 0px 0px;
+   margin-right: 10px;
+   z-index: 99;
+}
+  
+  .only_mobile {
+  display:inline-block;
+}
+  
+ .navbar-nav {
+    margin-left: 30px;
+}
+  
+  body {
+    background: #171B21;
+    overflow-x: hidden;
+  }
+  
+  .hidden_show {
+    display: block !important;
+  }
+  
+  .navbar-right-mobile {
+    display:none;
+  }
+  
+  .header_area.menu_two .main_menu .navbar.navbar-expand-lg .navbar-nav li a {
+   font-size:24px;
+   font-family: 'Gotham Light' , sans-serif;
+   font-weight: 300;
+    margin-bottom: 12px;
+  }
+  
+  .menu_mobile_atendimento_content {
+    display:block;
+  }
+  
+  .navbar-brand {
+    margin-left:auto;
+    margin-right:-18px !important;
+  }
+  
+  .footer_main_atendimento_card {
+    top: 30px !important;
+  }
+  
+  .main_others_medias {
+    margin-top:0px !important;
+  }
+
+  
+  .car_show_mb {
+    display:none !important;
+  }
+  
+
+  
+  .feature_car_area {
+  }
+  
+  .filter_car_show_form  {
+    margin-bottom: 35px;
+    margin-left:0px;
+    width:385px;
+    height: 420px !important;
+    bottom: 215px;
+  }
+  
+  .taxi_slider_text .container .row {
+    justify-content: center;
+  }
+  
+  .want_buy_detail_mb {
+    display:none;
+  }
+  
+  .home_more_search_box {
+    position: relative;
+    width: auto;
+    height: 410px;
+    left: 0;
+    top: -360px;
+    margin-top:75px;
+/*     background: #171B21; */
+}
+  
+  .find_form {
+  margin-bottom: -225px;
+  }
+  
+  .home_more_search_text {
+    display:none;
+  }
+  
+  .home_more_search_content {
+    position: relative;
+    width: 360px;
+    height: 298px;
+    left: 0px;
+    top: 112px;
+    margin-top: -50px;
+  }
+ 
+  .more_search_content_place {
+    position: relative;
+    width: 1566px;
+    height: 297.62px;
+    /* left: 0px; */
+    left: 0;
+    top: 0px;
+  }
+  
+  .home_more_search_detail {
+    display:none;
+  }
+  
+  .want_buy_area_content {
+  max-width: 335px;  
+  }
+  
+  .want_buy_area_content p {
+    width: 262px;
+    height: 72px;
+    margin:0px !important;
+  }
+  
+  .want_buy_area_btns {
+    display: flex;
+    position: relative;
+    width: 200px;
+    justify-content: center;
+  }
+  .want_buy_area_btns button:first-child {
+    width:140px;
+  }
+  .want_buy_area_btns button:nth-child(2) {
+    width:140px;
+  }
+  
+  .find_form_mb {
+    height:0;
+  }
+  
+  .car_company_slider {
+    text-align: -webkit-center !important;
+  }
+  
+    /* footer   */
+  .footer_main_card_section {
+    margin-top:40px;
+    flex-direction: row !important;
+    height: auto !important;
+    overflow-x: scroll;
+  }
+  
+  .footer_main_card_section .footer_main_card_box:nth-child(2) {
+    margin-left: 90px;
+  }
+  
+  .footer_main_card_box {
+    max-width: 300px;
+  }
+  
+  .footer_main_card_content:first-child  {
+    margin-left: 0px !important;
+  }
+  
+  .footer_main_menu_section {
+    width:auto;
+    justify-content: center;
+    display: none !important;
+  }
+  
+  .logo-footer {
+    display:none !important;
+  }
+  
+  .logo-footer-mobile {
+    display:inline;
+  }
+  
+  .img_footer {
+  text-align-last: center;  
+  }
+  
+  .footer_main_atendimento_card {
+    width:auto !important;
+    left: 0 !important; 
+  }
+  
+  .footer_main_menu_section {
+    justify-content: center !important; 
+  }
+  
+  .main_others_copy p:first-child {
+    font-size: 15px !important;
+  }
+  
+  .footer_main_others_section {
+    height: 135px !important; 
+  }
+  
+  .main_others_copy p:first-child {
+    margin-bottom: 25px !important;
+  }
+  
+/*  car list  */
+  
+/*   .car_list_filter_box  {
+    width: 270px !important;
+  } */
+  
+  .car_list_filter_results_box {
+  width:275px;
+  }  
+  
+  .list_filter_btn_content img {
+  left:53%;
+  }
+  
+  .box_atendimento_2 {
+    display:none;
+  }
+  
+  .list_filter_btn_box2 {
+    display: flex;
+    width: 140px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 0px;
+  }
+  
+/*   .filter_left_mobile {
+    padding: 20px;
+  } */
+  
+  .margin_full {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  
+  .filtro_mobile select {
+    margin-bottom: 15px !important;
+    margin-top: -5px !important;
+    
+  }
+  
+  .btnver_mobile {
+  display:block;
+}
+  
+  .extra_filter_mobile {
+    display:none;
+  }
+  
+/* carousel    */
+  
+  
+    
+/*   end car list  */
+  
+/* car-detail   */
+  
+  .detalhes_carros_box_principal_grid {
+    margin-top:10px;
+  }
+  
+  .hidden_mb {
+    display:none !important;
+  }
+ 
+  .main_car_details_description_optional_content_row {
+  width:auto !important;
+  }
+  
+  .main_car_details_description_optional_content_column {
+ width: 50% !important; 
+  }
+  
+  .main_car_details_description_optional_content_column text {
+    width: 125px !important;
+  }
+  
+  .main_car_detail_sideform_share_box {
+    margin: 25px 0px !important;
+  }
+
+  .main_car_detail_sideform_contact_form_box {
+    margin: 0px 0px 0px 0px !important;
+  }
+  
+  .main_car_detail_sideform_contact_form_wpp {
+    margin-left:0px !important;
+  }
+  
+  .main_car_detail_sideform_contact_form_wpp_financiamento {
+    margin-left: 0px !important;
+  }
+  
+/*  end car-detail  */
+  
+/*  how sell css  */
+  
+  .main_how_sell_box_area1_intro_img_area {
+    display:none;
+  }
+  
+  .main_how_sell_area2_form_about_car_fields_checkbox label {
+    flex-basis: min-content;
+    width: min-content !important;
+  }
+
+  .main_how_sell_box_area1_intro_options_area {
+    overflow-x: scroll;
+  }
+  
+  .filtrosD {
+    margin-right: 10px;
+  }
+  
+  .how_sell_area_bg .flag_center_title h4 {
+    padding-top: 25px;
+  }
+  
+  .main_how_sell_area2_form_about_car_fields_checkbox {
+   margin-left: 0px;  
+  }
+  
+  .main_car_detail_sideform_share_box {
+    width: -webkit-fill-available !important;
+  }
+  
+  .how_sell_area2_ask {
+    display:none !important;
+  }
+  
+  .results_flex {
+    margin-right: 12px;
+  }
+  
+  .mr_mb {
+  margin-right: 12px;
+  }
+  
+/*  how sell css   */
+  
+/* how-work */
+  .main_how_work_line {
+    display:none;
+  }
+  
+  .main_how_work_description_area_img {
+    display:none;
+  }
+  
+  .bg_how_work {
+    padding-bottom: 0px !important;
+    padding-top: 53px;
+  }
+  
+  .container_mb {
+    margin-bottom: 0px !important;
+  }
+  
+  .main_how_work_description_benefits_box {
+    position: initial !important;
+    overflow-x: scroll;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+  
+  .main_how_work_box_area1_intro_img_area {
+    display: none !important;
+  }
+  
+/*  end how-work  */
+  
+}

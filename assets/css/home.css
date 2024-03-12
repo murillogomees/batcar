@@ -1,0 +1,1867 @@
+@font-face {
+  font-family: 'Gotham';
+  src: url('https://batcar.storgetec.com.br/assets/fonts/Gotham-Font/GothamBook.ttf') format('opentype'), url('/assets/fonts/Gotham-Font/GothamBook.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('https://batcar.storgetec.com.br/assets/fonts/Gotham-Font/Gotham-XLight.otf') format('opentype'), url('/assets/fonts/Gotham-Font/Gotham-XLight.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('https://batcar.storgetec.com.br/assets/fonts/Gotham-Font/Gotham-Bold.otf') format('opentype'), url('/assets/fonts/Gotham-Font/Gotham-Bold.otf') format('truetype');
+}
+
+
+input:focus-visible {
+  outline: none;
+}
+
+input {
+  color:#6A6A71;
+}
+
+a {
+  color: #ffffff;
+}
+
+
+.bmodal{
+  float: right;
+  position: relative;
+  top: 40px;
+  z-index: 8;
+  border: 1px solid #fcb200;
+  border-radius:10px;
+  margin-right: 10px;
+}
+
+    border-radius: 10px;
+/* Car show area css */
+.home_car_show_area {
+position: absolute;
+width: 2440px;
+height: 914px;
+left: 0px;
+top: 0px;
+background: #171B21;
+}
+
+.home_car_show_background {
+position: absolute;
+width: ;
+/* height: 797px; */
+height:830px;
+left: 170px;
+top: 0px;
+background: #171B21;
+z-index:5;
+}
+
+.home_car_show_box {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 669px;
+height: 486.25px;
+left: 181px;
+top: 141px;
+}
+
+.home_car_show_info {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 547px;
+height: 128.25px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 48px 0px;
+}
+
+.home_car_show_info_content {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 461.62px;
+height: 128.25px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 12.3779px;
+}
+
+.home_car_show_info_content p:first-child {
+position: static;
+width: 461.62px;
+height: 38px;
+left: 0px;
+top: 0px;
+font-family: "Gotham Bold", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 38px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 4.12595px 0px;
+}
+
+.home_car_show_info_content p:nth-child(2) {
+position: static;
+width: 461.62px;
+height: 44px;
+left: 0px;
+top: 42.13px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 4.12595px 0px;
+}
+
+.home_car_show_info_content p:nth-child(3) {
+position: static;
+width: 461.62px;
+height: 38px;
+left: 0px;
+top: 90.25px;
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 22px;
+color: #FFFFFF;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 4.12595px 0px;
+}
+
+.home_car_show_info_content span {
+font-family: 'Gotham Light', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 18px;
+}
+
+.home_car_show_box .home_car_show_info img {
+position: static;
+width: 73px;
+height: 64px;
+left: 474px;
+top: 0px;
+/* background: url(image.png); */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 12.3779px;
+}
+
+.home_car_show_box img {
+  position: static;
+width: 669px;
+height: 310px;
+left: 669px;
+top: 176.25px;
+/* background: url(image.png); */
+transform: matrix(1, 0, 0, 1, 0, 0);
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 48px 0px; */
+margin: 5px 0px;
+}
+
+.buscar_carro_box_flex {
+  display:flex;
+}
+
+.home_car_show_filter {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 16px;
+position: absolute;
+width: 353px;
+height: 366px;
+left: 950px;
+top: 175px;
+/* Bat/Black/002 */
+background: #252B30;
+border-radius: 20px;
+}
+
+.car_show_filter_form {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+/* width: 348px; */
+height: 75px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 16px 0px; */
+}
+
+.car_show_filter_form label {
+position: static;
+width: 348px;
+height: 19px;
+left: calc(50% - 348px/2);
+top: calc(50% - 19px/2);
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #6A6A71;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 6px;
+}
+
+.car_show_filter_select {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 348px;
+height: 75px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+.car_show_filter_select select {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px 12px 18px;
+position: static;
+width: 348px;
+height: 50px;
+left: 0px;
+top: 25px;
+background: #1D232B;
+border-radius: 6px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+margin: 6px 0px;
+font-family: "Gotham", system-ui;
+border:none;
+}
+
+.car_show_filter_select input {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px 12px 18px;
+position: static;
+width: 348px;
+height: 50px;
+left: 0px;
+top: 25px;
+background: #1D232B;
+border-radius: 6px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+margin: 6px 0px;
+font-family: "Gotham", system-ui;
+border:none;
+}
+
+.car_show_filter_select2 {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 348px;
+height: 75px;
+left: 0px;
+top: 91px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+.car_show_filter_select2 select {
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 16px 12px 18px;
+position: static;
+width: 348px;
+height: 50px;
+left: 0px;
+top: 25px;
+background: #1D232B;
+border-radius: 6px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+margin: 6px 0px;
+border:none;
+}
+
+.car_show_filter_choose {
+display: flex;
+flex-direction: column;
+/* flex-direction: column-reverse; */
+/* align-items: flex-start; */
+padding: 0px;
+/* position: static; */
+position:relative;
+width: 348px;
+height: 121px;
+/* left: 16px; */
+left: -333px;
+/* top: 198px; */
+top:230px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px;
+}
+
+.car_show_filter_choose label {
+position: relative;
+width: 147px;
+height: 19px;
+right: 10px;
+top: 0px;
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #6A6A71;
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 16px 0px; */
+margin-top: 30px;
+margin-bottom: 8px;  
+}
+
+.show_filter_choose_box {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 348px;
+height: 86px;
+left: 0px;
+top: 35px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 16px 0px; */
+  margin-left:-14px;
+}
+
+.show_filter_choose_box2 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 15px;
+/* margin: 16px 0px; */
+}
+
+.show_filter_choose_box2 button:first-child {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+background: #FCB200;
+border-radius: 10px;
+flex: none;
+order: 0;
+flex-grow: 1;
+border:none;
+  
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+ 
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+/* margin: 0px 16px; */
+}
+
+.show_filter_choose_box button:first-child {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+position: static;
+width: 166px;
+height: 86px;
+left: 0px;
+top: 0px;
+background: #FCB200;
+border-radius: 10px;
+flex: none;
+order: 0;
+flex-grow: 1;
+border:none;
+  
+font-family: 'Gotham', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-right: 15px;  
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+/* margin: 0px 16px; */
+}
+
+.show_filter_choose_box a:nth-child(2){
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+position: static;
+width: 166px;
+height: 86px;
+left: 0px;
+top: 0px;
+background: #FFF;
+border-radius: 10px;
+flex: none;
+order: 0;
+flex-grow: 1;
+border:none;
+  
+font-family: 'Gotham', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-right: 15px;  
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+/* margin: 0px 16px; */
+}
+
+.show_filter_choose_box input:first-child {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+position: static;
+width: 166px;
+height: 86px;
+left: 0px;
+top: 0px;
+background: #FCB200;
+border-radius: 10px;
+flex: none;
+order: 0;
+flex-grow: 1;
+border:none;
+  
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+margin-right: 15px;  
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+/* margin: 0px 16px; */
+}
+
+.show_filter_choose_box button:nth-child(2) {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+position: static;
+width: 166px;
+height: 86px;
+left: 182px;
+top: 0px;
+background: #FFFFFF;
+border-radius: 10px;
+flex: none;
+order: 1;
+flex-grow: 1;
+/* margin: 0px 16px; */
+border:none;
+  
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+
+
+
+.btvender {
+color:#1D232B;  
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px;
+position: static;
+width: 166px;
+height: 86px;
+left: 182px;
+top: 0px;
+background: #FFFFFF;
+border-radius: 10px;
+flex: none;
+order: 1;
+flex-grow: 1;
+/* margin: 0px 16px; */
+border:none;
+  
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+}
+
+
+.button_bat_1 {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position:relative;
+/* top:66px; */
+/* left:3px; */
+top:288px;
+left:-695px;
+width: 348px;
+height: 60px;
+background: #FCB200;
+border: 2px solid #FCB200;
+box-sizing: border-box;
+border-radius: 10px;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin-top: 25px;
+  
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+}
+
+.home_car_show_sub {
+position: absolute;
+width: 1110px;
+height: 232px;
+left: 225px;
+/* top: 682px; */
+  top:720px;
+/* overflow-x: scroll; */
+}
+
+.car_show_sub_content1 {
+position: absolute;
+width: 348.82px;
+/* height: 230.92px; */
+height:182.92px;
+left: 0.59px;
+top: 0.76px;
+  
+background: #1D232B;
+border: 0.974359px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 19.4872px;
+z-index: 10;  
+
+}
+
+.car_show_sub_info {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 291.33px;
+height: 70.85px;
+left: 48.72px;
+top: 15.59px;
+
+}
+
+.car_show_sub_title {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 233.85px;
+height: 70.85px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8.76923px;
+}
+
+.car_show_sub_content1 .car_show_sub_info img {
+position: absolute;
+width: 34.1px;
+height: 34.1px;
+left: 125.79px;
+top: 4.79px;
+/* background: url(image.png); */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 9.74359px;
+}
+
+.car_show_sub_title p:first-child {
+  position: static;
+width: 233.85px;
+height: 23px;
+left: 0px;
+top: 0px;
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 19.4872px;
+line-height: 23px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+}
+
+.car_show_sub_title p:nth-child(2) {
+position: static;
+width: 233.85px;
+height: 14px;
+left: 0px;
+top: 25.92px;
+font-family: 'Gotham Light', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 11.6923px;
+line-height: 14px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+}
+
+.car_show_sub_title span {
+
+font-family: 'Gotham Light', sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 13.641px;
+line-height: 16px;
+/* Bat/Whites/001 */
+
+}
+
+.car_show_sub_title p:nth-child(3) {
+position: static;
+width: 233.85px;
+height: 28px;
+left: 0px;
+top: 42.85px;
+font-family: 'Gotham Bold', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 23.641px;
+line-height: 16px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+}
+
+.car_show_sub_tag {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 7.79487px;
+position: absolute;
+width: 28.59px;
+height: 170.51px;
+left: 3.9px;
+top: 3.9px;
+
+background: #0094F4;
+border-radius: 15.5897px 0px 0px 15.5897px;
+}
+
+.car_show_sub_tag p {
+width: 116px;
+height: 13px;
+font-family: "Gotham Bold", system-ui;
+font-style: normal;
+font-weight: 700;
+font-size: 10.718px;
+line-height: 13px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 7.79487px;
+text-transform: uppercase;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+transform: rotate(-90deg);
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 9.74359px 0px;
+}
+
+.car_show_sub_content1 img {
+position: relative;
+width: 85% !important;
+height: 140.31px;
+left: 43.85px;
+top: 90.62px;
+object-fit:scale-down;  
+
+}
+
+.car_show_sub_content2 {
+position: absolute;
+width: 348.82px;
+/* height: 230.92px; */
+height:195.92px;
+left: 372.79px;
+top: 0.76px;
+  
+background: #1D232B;
+border: 0.974359px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 19.4872px;
+z-index: 10;
+}
+
+.car_show_sub_content2 .car_show_sub_info {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 291.33px;
+height: 70.85px;
+left: 48.72px;
+top: 15.59px;
+  
+}
+
+.car_show_sub_content2 .car_show_sub_title {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 233.85px;
+height: 70.85px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8.76923px;
+
+}
+
+.car_show_sub_content2 .car_show_sub_title p:first:child {
+position: static;
+width: 233.85px;
+height: 23px;
+left: 0px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 19.4872px;
+line-height: 23px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content2 .car_show_sub_title p:nth:child(2) {
+ position: static;
+width: 233.85px;
+height: 14px;
+left: 0px;
+top: 25.92px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 11.6923px;
+line-height: 14px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content2 .car_show_sub_title p:nth:child(3) {
+  position: static;
+width: 233.85px;
+height: 28px;
+left: 0px;
+top: 42.85px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 13.641px;
+line-height: 16px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content2 .car_show_sub_info img {
+position: static;
+width: 34.1px;
+height: 34.1px;
+left: 7.79px;
+top: 7.79px;
+/* background: url(image.png); */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 9.74359px;
+  
+}
+
+.car_show_sub_content2 img {
+position: absolute;
+width: 262.1px;
+height: 140.31px;
+left: 43.85px;
+top: 90.62px;
+
+}
+
+.car_show_sub_content3 {
+position: absolute;
+width: 348.82px;
+/* height: 230.92px; */
+height:195.92px;
+left: 760.59px;
+top: 0.76px;
+  
+background: #1D232B;
+border: 0.974359px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 19.4872px;
+z-index:10;
+}
+
+.car_show_sub_content3 .car_show_sub_info {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 291.33px;
+height: 70.85px;
+left: 48.72px;
+top: 15.59px;
+  
+}
+
+.car_show_sub_content3 .car_show_sub_title {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 233.85px;
+height: 70.85px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8.76923px;
+
+}
+
+.car_show_sub_content3 .car_show_sub_title p:first:child {
+position: static;
+width: 233.85px;
+height: 23px;
+left: 0px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 19.4872px;
+line-height: 23px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content3 .car_show_sub_title p:nth:child(2) {
+ position: static;
+width: 233.85px;
+height: 14px;
+left: 0px;
+top: 25.92px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 11.6923px;
+line-height: 14px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content3 .car_show_sub_title p:nth:child(3) {
+  position: static;
+width: 233.85px;
+height: 28px;
+left: 0px;
+top: 42.85px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 13.641px;
+line-height: 16px;
+/* Bat/Whites/001 */
+color: #FFFFFF;
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+margin: 2.92308px 0px;
+
+}
+
+.car_show_sub_content3 .car_show_sub_info img {
+position: static;
+width: 34.1px;
+height: 34.1px;
+left: 7.79px;
+top: 7.79px;
+/* background: url(image.png); */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 9.74359px;
+  
+}
+
+.car_show_sub_content3 img {
+position: absolute;
+width: 262.1px;
+height: 140.31px;
+left: 43.85px;
+top: 90.62px;
+
+}
+
+
+/* End Car Show Area CSS */
+
+
+/* More Search Area Css  */
+
+
+.home_more_search_area {
+position: absolute;
+width: 2440px;
+height: 798px;
+left: 0px;
+top: 797px;
+  
+background: #1D232B;
+}
+
+.home_more_search_area_bg {
+ position: absolute; 
+ background: #1D232B;
+ height: 798px;
+ width:100%;
+ left:10%;
+}
+
+
+.home_more_search_box {
+/* position: relative;
+width: 1271px; */
+height: 410px;
+left: 169px;
+/* top: 257px; */
+}
+
+.home_more_search_box h4 {
+/* position: absolute; */
+width: 191px;
+height: 80px;
+left: 0px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 100%;
+/* or 40px */
+color: #FFFFFF;
+margin-top: 0;
+  
+}
+
+.home_more_search_content {
+position: absolute;
+width: 962px;
+height: 298px;
+left: 666px;
+top: 112px;
+overflow-x: scroll;
+overflow-y:hidden;  
+}
+
+.more_search_content_place {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 1566px;
+height: 297.62px;
+/* left: 0px; */
+left:158px;
+top: 0px;
+}
+
+.more_search_content_card {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 26.3911px;
+position: static;
+/* width: 290.3px; */
+/* height: 297.62px; */
+width: 260.3px;
+height: 265.62px;
+left: 0px;
+top: 0px;
+/* Bat/Black/002 */
+background: #252B30;
+border-radius: 21.9926px;
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 17.5941px; */
+margin: 0px 4.5941px;
+}
+
+.more_search_content_info {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 237.52px;
+height: 244.84px;
+left: 26.39px;
+top: 26.39px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 10.9963px 0px; */
+}
+
+
+.more_search_content_info img {
+position: static;
+width: 211.52px;
+height: 118.76px;
+left: 0px;
+top: 0px;
+/* background: url(image.png); */
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 35.1882px 0px; */
+}
+
+.more_search_content_title {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+position: static;
+width: 237.52px;
+height: 90.89px;
+left: 0px;
+top: 153.95px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 35.1882px 0px; */
+}
+
+
+.more_search_content_text{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 175.94px;
+height: 90.89px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 35.1882px; */
+}
+
+.more_search_content_text h5 {
+  position: static;
+width: 84px;
+height: 70px;
+left: 0px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 700;
+font-size: 35.1882px;
+line-height: 100%;
+/* or 35px */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8.79705px 0px;
+}
+
+.more_search_detail {
+width: 175.94px;
+height: 12.1px;
+left: 0px;
+top: 78.8px;
+/* Bat/Primary/001 */
+background: #FCB200;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 8.79705px 0px;
+  
+}
+
+.more_search_number {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 0px;
+
+/* position: static; */
+position:relative;
+width: 35.19px;
+height: 35px;
+/* left: 202.33px; */
+/* top: 55.89px; */
+left:170.33px;
+top:-35.11px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 5.1882px;
+
+
+}
+
+.more_search_number span {
+position: static;
+width: 12px;
+height: 35px;
+left: 11.59px;
+top: 0px;
+
+font-family: "Gotham Light", sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 35.1882px;
+line-height: 100%;
+/* or 35px */
+
+/* Bat/Primary/001 */
+color: #FCB200;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 8.79705px 0px;
+}
+
+
+.home_more_search_detail {
+position: relative;
+width: 780px;
+height: 10px;
+left: 840px;
+/* top: 223px; */
+background: #FCB200;
+}
+
+.home_more_search_text {
+/* position: absolute; */
+width: 337px;
+height: 87px;
+left: 0px;
+top: 112px;
+margin-top:0;
+
+font-family: "Gotham Light", sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 24px;
+line-height: 120%;
+/* or 29px */
+
+
+color: #FFFFFF;
+}
+
+
+/* want buy area */
+.home_want_buy_area {
+position: absolute;
+width: 2440px;
+height: 798px;
+left: 0px;
+top: 1595px;
+  
+background: #171B21;
+}
+
+.home_want_buy_area_bg {
+position: absolute;
+width: auto;
+height: 798px;
+left: 10%;
+/* top: 1595px; */
+background: #171B21;  
+}
+
+.want_buy_area_box {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 415px;
+height: 448px;
+
+}
+
+.want_buy_area_box h4 {
+position: static;
+width: 358px;
+height: 80px;
+left: 0px;
+top: 0px;
+font-family: "Gotham Light", sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 40px;
+line-height: 100%;
+/* or 40px */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 56px 0px; */
+margin:0;
+}
+
+.want_buy_area_box b {
+font-family: "Gotham bold", sans-serif;
+font-weight: 700;
+
+}
+
+.want_buy_area_content {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 48px 0px; */
+margin-top: 60px;
+}
+
+.want_buy_area_content span {
+position: static;
+width: 48px;
+height: 48px;
+left: 0px;
+top: 0px;
+border-radius: 5px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 16px;
+margin-top:5px;
+}
+
+.want_buy_area_content p {
+width: 351px;
+/* height: 72px; */
+font-family: "Gotham Light", sans-serif;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 16px;
+}
+
+
+.want_buy_area_detail {
+position: relative;
+width: 329px;
+height: 624.98px;
+
+background: transparent;
+border-radius: 400px;
+transform: rotate(30deg);
+}
+
+
+
+.want_buy_area_detail img {
+ position: absolute;
+ width: 590px;
+ height: 549px;
+ right: -59px;
+ top: 13px;
+ transform: rotate(-30deg);
+}
+
+.want_buy_area_btns {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: relative;
+width: 580px;
+  margin-bottom:60px;
+  margin-top:80px;
+}
+
+.want_buy_area_btns button:first-child {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 282px;
+height: 60px;
+left: 0px;
+top: 0px;
+/* Bat/Primary/001 */
+border: 1px solid #FCB200;
+box-sizing: border-box;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0;
+background:transparent;
+}
+
+.want_buy_area_btns button:nth-child(2) {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 282px;
+height: 60px;
+left: 298px;
+top: 0px;
+/* Bat/Primary/001 */
+background: #FCB200;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 16px;
+border-color:transparent;
+}
+
+.want_buy_area_btns text {
+font-family: "Gotham", sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FCB200;
+}
+
+.want_buy_area_btns text2 {
+font-family: "Gotham", sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #1D232B;
+}
+
+/* end want buy area */
+
+
+/* want sell area css */
+
+.home_want_sell_area {
+position: absolute;
+width: 2440px;
+height: 798px;
+left: 0px;
+top: 2393px;
+background: #171B21;
+border-top:1px solid #fcb200;
+}
+
+.home_want_sell_area_bg {
+position: absolute;
+width: auto;
+height: 798px;
+left: 10%;
+top: 0px;
+background: #171B21;
+}
+
+.want_sell_area_detail {
+position: relative;
+width: 519px;
+height: 582px;
+/* left: 185px;
+top: 72px; */
+/* left: 83px;
+top: 134px; */
+}
+
+
+.want_sell_area_retangule {
+position: relative;
+width: 329px;
+height: 585.81px;
+/* left: 276.9px;
+top: -44px; */
+
+background: #FCB200;
+border-radius: 400px;
+transform: rotate(30deg);
+}
+
+.want_sell_area_detail img {
+position: relative;
+width: 336px;
+height: 572px;
+/* left: -7px;
+top: 0px; */
+left: -118px;
+top: 63px;
+transform: rotate(-30deg);
+}
+
+.want_sell_area_content {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 415px;
+height: 448px;
+left: 853px;
+top: 103px;
+
+}
+
+.want_sell_area_content h4 {
+position: static;
+width: 358px;
+height: 80px;
+left: 0px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 100%;
+/* or 40px */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 56px 0px;
+}
+
+.want_sell_content_text {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 415px;
+height: 96px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 48px 0px; */
+margin-top: 25px;  
+}
+
+.want_sell_content_text p {
+  position: static;
+width: 351px;
+height: 96px;
+left: 64px;
+top: 0px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* or 24px */
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 16px;
+  
+}
+
+/* end want sell area css  */
+
+
+/* Brand Area Css */
+
+.home_brands_area {
+position: absolute;
+width: 2440px;
+height: 400px;
+left: 0px;
+/* top: 3191px; */
+top:1260px;
+background: #171B21;
+}
+
+.home_brands_area_bg {
+position: absolute;
+width: auto;
+height: 400px;
+left: 10%;
+top: 0px;
+background: #171B21;  
+}
+
+.home_brands_pos {
+  top:3192px;
+}
+
+.home_brands_area h3 {
+position: absolute;
+width: 435px;
+height: 48px;
+left: 502px;
+top: 75px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height */
+color: #FFFFFF;
+margin-top:0;
+  
+}
+
+.brands_area_content {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 2845px;
+height: 80px;
+left: 152px;
+/* top: 0px; */
+top:170px;
+
+}
+
+.brands_area_card {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 105px;
+height: 80px;
+left: 0px;
+top: 0px;
+background: #252B30;
+border-radius: 20px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 32px; */
+  margin: 0px 13px;
+}
+
+.home_brands_area_effect {
+ position: absolute;
+ width: -webkit-fill-available;
+ height: 43px;
+ left: 0px;
+ /* top: 36px; */
+ /* top: 407px; */
+ background: radial-gradient(54.62% 4492.7% at 50% 50%, #0094F4 0%, rgba(56, 94, 137, 0) 100%);
+ filter: blur(36px);
+}
+
+
+.filtro select {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 12px 0px 12px 14px;
+width: -webkit-fill-available;
+background: #1D232B;
+border-radius: 6px;
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 6px 0px;
+font-family: "Gotham", system-ui;
+border:none;
+color:#B9B9C3;
+}
+
+.filtro input {
+display: flex;
+flex-direction: row;
+align-items: center;
+width: -webkit-fill-available;
+background: #1D232B;
+border-radius: 6px;
+flex: none;
+order: 1;
+color:#B9B9C3;
+flex-grow: 1;
+margin: 6px 0px;
+font-family: "Gotham", system-ui;
+border:none;
+}
+
+.filtro input::placeholder {
+  color:#B9B9C3 !important;
+}
+
+input::placeholder {
+  color:#B9B9C3 !important;
+}
+
+.acessorios {
+
+flex-direction: inline;
+justify-content: center;
+align-items: center;
+
+
+background: #1D232B;
+border: 1px solid #252B30;
+border-radius: 5px;
+  
+}
+
+.extra_filter_mobile{
+display:none;
+  
+}
+
+
+
+
+
+
+

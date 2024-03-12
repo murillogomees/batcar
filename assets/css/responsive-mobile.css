@@ -1,0 +1,183 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/Gotham/GothamBook.eot');
+	src: url('fonts/Gotham/GothamBook.woff') format('woff'), url('fonts/Gotham/GothamBook.ttf') format('truetype');
+}
+
+.logo-footer {
+  display:inline-block;
+}
+
+.img_footer img:first-child {
+  display:none !important;
+}
+
+@media screen and (max-width: 600px) {
+  
+  body {
+    zoom:100%;
+    background: #171B21;
+  }
+  
+ .navbar-light .navbar-toggler {
+  right:1670px !important;
+  top:5px;
+  }
+  
+  .main_menu .navbar.navbar-expand-lg {
+    left:110px;
+  }
+  
+ .main_menu .navbar-collapse {
+    background: #1d232b;
+/*     max-height: 400px;
+    overflow-y: scroll; */
+}
+  
+ .home_car_show_sub {
+    left: -158px;
+    top: 120px;
+}
+  
+  .home_car_show_box {
+    display:none;
+  }
+  
+  .home_car_show_filter {
+    top:375px;
+    left: -168px;
+  }
+
+  .home_more_search_area .home_more_search_area_bg {
+   background:#171b21; 
+  }
+  
+  .home_more_search_area {
+   background:#171b21;  
+  }
+  
+  .home_more_search_box {
+    left: -215px;
+    top: 0px;
+}
+  
+  .home_more_search_text {
+    display:none;
+  }
+  
+  .home_more_search_content {
+    position: absolute;
+    left: -237px;
+    overflow-x: scroll;
+}
+  
+  .home_more_search_detail {
+    display:none;
+  }
+  
+  .want_buy_area_detail {
+    display:none;
+  }
+  
+  .want_buy_area_box {
+
+    left: -222px;
+    top: -350px;
+  }
+  
+  .want_buy_area_content {
+    width:340px;
+    margin: 35px 0px;
+  }
+  
+  .want_buy_area_content p {
+    width:240px;
+  }
+  
+  .want_buy_area_btns {
+    left:-229px;
+    top:181px;
+    width: 358px;
+  }
+  
+  .want_buy_area_btns button:first-child {
+    width:100px;
+  }
+  
+  .want_buy_area_btns button:last-child {
+    width:100px;
+  }
+  
+  .home_want_sell_area {
+  top:1915px;
+  }
+  
+  .want_sell_area_detail {
+    display:none;
+  }
+  
+  .want_sell_area_content {
+    left: -217px;
+    top: 0px;
+  }
+  
+  .home_want_sell_area .want_buy_area_btns {
+    top:570px;
+  }
+  
+  .want_sell_content_text {
+    width:345px;
+  }
+  
+  .want_sell_content_text p {
+    width: 290px;
+  }
+  
+  .home_brands_pos {
+    top:2714px;
+  }
+  
+  .home_brands_area h3 {
+    position: absolute;
+    left: 198px;
+    top: 75px;
+    font-size: 30px;
+    line-height: 48px;
+  }
+  
+  .home_brands_area_bg {
+    left:-150px;
+    top:-105px;
+  }
+  
+  .brands_area_card {
+    width: 100px;
+    margin: 0px 4px;
+}
+  
+  .brands_area_content {
+    height:100px;
+  }
+  
+/* footer   */
+  .footer_main_card_section {
+    margin-top:40px;
+  }
+  
+  .footer_main_menu_section {
+    width:auto;
+  }
+  
+  .logo-footer {
+    display :none !important;
+    content-visibility: hidden;
+  }
+  
+  .logo-footer-mobile {
+    display:block;
+  }
+  
+
+  
+  
+}

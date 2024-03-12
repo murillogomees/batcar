@@ -1,0 +1,838 @@
+body {
+  background: transparent;
+}
+
+
+.main_product_area_bg {
+  background: #171b21;
+  margin-top:0px !important;
+}
+
+.car_list_filter_section {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+
+
+}
+
+.car_list_filter_box {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+position: static;
+width: 1112px;
+/* width: 857px; */
+/* height: 60px; */
+height: 45px;
+left: 0px;
+top: 0px;
+background: #252B30;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 16px; */
+}
+
+.car_list_filter_icons {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: static;
+width: 45px;
+height: 40px;
+left: 8px;
+top: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.shopcar_midia_mobile {
+  display:none;
+}
+
+.car_list_filter_arrow  {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+/* width: 40px;
+height: 40px; */
+width: 30px;
+height: 30px;  
+left: 0px;
+top: 0px;
+/* Bat/Primary/001 */
+background: #FCB200;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 0px 8px; */
+margin: 0px 9px 0px 0px;
+}
+
+.car_list_filter_line {
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 4px;
+position: static;
+width: 8px;
+height: 38px;
+left: 104px;
+top: 11px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+/* margin: 0px 8px; */
+margin: 0px 0px 0px -10px;
+}
+
+.car_list_filter_line span {
+position: static;
+width: 30px;
+height: 0px;
+left: 4px;
+top: 4px;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+
+.car_list_filter_results_box {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+position: static;
+width: 785px;
+height: 40px;
+left: 120px;
+top: 10px;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 1;
+/* margin: 0px 8px; */
+margin: 0px 0px 0px 8px;
+}
+
+.car_list_filter_results_number {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 40px;
+height: 40px;
+left: 0px;
+top: 0px;
+border: 1px solid #FCB200;
+box-sizing: border-box;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 8px; */
+  
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+/* identical to box height */
+text-align: center;
+color: #FCB200;
+}
+
+.car_list_filter_msg_box {
+  width:120px;
+  margin-left:10px;
+  line-height:15px;
+}
+
+.search_car_box {
+  width: -webkit-fill-available;
+}
+
+  
+}
+
+.search_car_box_content {
+  
+}
+
+.search_car_box_content input { 
+  background: #1D232B;
+  border:none;
+  width:815px;
+}
+
+.btn.focus, .btn:focus {
+  box-shadow: none !important;
+}
+
+
+
+.car_list_filter_results_box text {
+position: static;
+width: 81px;
+height: 28px;
+left: 48px;
+top: 6px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+color: #FCB200;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.btn_search_filter {
+ border-radius:8px;
+ border: 1px solid #FCB200;
+ background:#FCB200;
+ color: black;
+}
+
+.box_atendimento_2 {
+background: #252b30;
+border-radius: 10px;
+margin-left: 24px; 
+text-align: center;
+width:150px;
+color: white;
+}
+
+.car_list_filter_options {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+/* padding: 8px; */
+position: static;
+width: 40px;
+height: 40px;
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+/* margin: 0px 8px; */
+}
+
+.list_filter_btn_box {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px 22px;
+position: static;
+height: 40px;
+left: 977px;
+top: 0px;
+background: #252B30;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+border:none;
+}
+
+.list_filter_btn_content {
+position: static;
+height: 20px;
+left: 55px;
+top: 20px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin-left: auto;
+margin-right: auto;
+}
+
+.list_filter_btn_content img {
+position: relative;
+left: -5px;
+bottom: 5px;  
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+}
+
+.list_filter_btn_content text {
+font-family: "Gotham Light", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 8px;
+
+position:relative;
+top:-4px;  
+}
+
+.list_filter_btn_content text:hover {
+  color: #FCB200;
+}
+
+.car_list_section_ordenation {
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+justify-content: center;
+
+}
+
+.pfix {
+  margin-top:0px !important;
+}
+.car_list_section_ordenation text {
+position: static;
+width: 127px;
+height: 19px;
+left: 0px;
+top: 0.95px;
+font-family: "Gotham Light", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+}
+
+.box_atendimento_3 span a:hover {
+  color: #FCB200;
+}
+
+.main_results_car_list {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: absolute;
+width: 1180px;
+height: 738px;
+/* left: 131px; */
+left:116px;
+top: 253.9px;
+
+}
+
+.results_car_list_box {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 1180px;
+height: 359px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
+.results_flex {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.results_car_list_content {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+text-align: initial;
+/* width: 346px;   */
+height: 300px;
+left: 0px;
+top: 0px;
+border: 1px solid rgba(255, 255, 255, 0.4);
+box-sizing: border-box;
+border-radius: 20px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
+.results_car_list_content_img {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: flex-end;
+/* padding: 8px; */
+position: static;
+
+height: 200px;
+left: 0px;
+top: 0px;
+
+border-radius: 20px 20px 0px 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 0px 0px;
+background-repeat: no-repeat !important;
+background-position: center !important;
+background-size: cover !important;
+  
+}
+
+.results_car_list_content_options {
+display: flex;
+flex-direction: column;
+/* justify-content: space-between; */
+justify-content: space-between;
+align-items: flex-end;
+padding: 0px;
+ width: 100%; 
+height: 164px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 0px;
+}
+
+.results_car_list_content_options .icon_heart_pos {
+ margin-right: 7px;
+ margin-top:7px;
+ z-index: 9999;
+  
+}
+
+.icon_heart_pos {
+ filter: hue-rotate(13deg);
+}
+
+.icon-heart1 {
+  position:relative;
+  top:1px;
+}
+
+.results_car_list_content_options .car_list_content_favorite {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 8px;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.results_car_list_content_options .results_car_list_content .results_car_list_options_icons img {
+  
+}
+
+.results_car_list_content_options ul {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+height: 48px;
+left: 0px;
+top: 132px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+margin-right: 5px;
+z-index: 99999;
+}
+
+.results_car_list_content_options ul li {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+.results_car_list_options_icons li img {
+  height:32px;
+  width: 33px;
+  border-radius:10px;
+}
+
+.results_car_list_info_box {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* padding: 17px; */
+position: static;
+/* width: 380px; */
+/* width: 344px; */
+/* height: 179px; */
+height: 100px;
+left: 0px;
+top: 180px;
+background: #FFFFFF;
+border-radius: 0px 0px 20px 20px;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 0px;
+padding: 0px 15px;
+}
+
+.car_list_info_title {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+position: static;
+text-transform: uppercase;
+/* width: 346px; */
+height: 40px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+/* margin: 16px 0px; */
+}
+
+.car_list_info_title .h5_title {
+  font-size:17px !important;
+}
+
+.car_list_info_title h6 {
+/* width: 79px; */
+/* height: 22px; */
+
+font-family: "Gotham Bold", system-ui;
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 22px;
+/* identical to box height */
+color: #171B21;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.car_list_info_title text {
+position: static;
+/* width: 346px; */
+height: 34px;
+left: 0px;
+top: 26px;
+font-family: "Gotham Medium", system-ui;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #171B21;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 4px 0px;
+}
+
+.results_car_list_info_box h4 {
+position: static;
+/* width: 346px; */
+height: 29px;
+left: 0px;
+top: 76px;
+font-family: "Gotham Bold", system-ui;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+color: #171B21;
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 16px 0px; 
+}
+
+.car_list_more_info {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+position: static;
+height: 17px;
+left: 0px;
+top: 121px;
+/* Inside auto layout */
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+width:209px;
+}
+
+
+.car_list_more_info text {
+position: static;
+/* width: 100px; */
+height: 17px;
+left: 0px;
+top: 0px;
+font-family: "Gotham Medium", system-ui;
+font-style: normal;
+font-weight: 500;
+font-size: 11px;
+line-height: 17px;
+/* identical to box height */
+text-align: center;
+color: #171B21;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+/* margin: 0px 44px; */
+}
+
+.car_list_more_info div {
+position: static;
+width: 13px;
+height: 0px;
+left: 234.5px;
+top: 2px;
+border: 1px solid #000000;
+transform: rotate(90deg);
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+/* margin: 0px 44px; */
+}
+
+.main_car_list_section p {
+ position: absolute;
+width: 190px;
+height: 19px;
+left: 625px;
+top: 1108px;
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 19px;
+color: #FCB200;
+}
+
+
+
+.only_mobile {
+  display:none !important;
+}
+
+@media screen and (max-width:600px) {
+  
+/*  car list  */
+ 
+  .only_mobile {
+    display:flex !important;
+  }
+  
+  .pfix {
+    margin-top: -1px !important;
+  }
+  
+  .shopcar_midia_mobile {
+    display: -webkit-inline-box;
+    position: absolute;
+    top: -45px;
+    left:0px;
+  }
+  
+    .shopcar_midia_mobile_2 {
+    display: -webkit-inline-box;
+    position: absolute;
+    top: -10px;
+    left:0px;
+  }
+  
+  .main_car_details_photos_favorite2 {
+    left:11px !important;
+  }
+  
+  .shopcar_midia_mobile span {
+    margin-right: 9px;
+  }
+  
+    .shopcar_midia_mobile a {
+    margin-right: 9px;
+  }
+  
+  .shopcar_midia_mobile_2 span {
+    margin-right: 9px;
+  }
+  
+  .car_list_filter_options {
+    position: absolute;
+    left: 90%;
+  }
+  
+  .car_list_filter_msg_box {
+    display:none;
+  }
+  
+  .car_list_filter_box  {
+   width: 88vw;
+  }
+  
+  .search_car_box {
+    width: auto;
+}
+
+  .car_list_filter_results_box {
+  width:275px;
+  margin:0px 0px 0px 4px;
+  }  
+  
+  .search_car_box_content input {
+    margin-left: 11px;
+  }
+  
+  .list_filter_btn_content img {
+  left:53%;
+  }
+  
+ .main_product_area_bg {
+    padding-top: 100px 1!important; 
+  }
+  
+  .main_product_area .container .main_product_inner {
+    margin-top: 50px;
+  }
+  
+  .car_list_filter_section {
+    flex-direction: column-reverse;
+    width:auto;
+  }
+  
+  .car_list_filter_line {
+    margin: 0px 0px 0px -15px;
+  }
+  
+  .list_filter_btn_box  {
+    width:140px ;
+    margin-bottom:15px;
+    margin-left:auto;
+    margin-right:0px
+    }
+  
+  .list_filter_mobile {
+     top: -47px;
+     position: relative; 
+     left: 9px;
+  }
+  
+  .list_filter_btn_box .list_filter_btn_content img {
+    left:8%;
+  }
+  
+  .main_product_area_bg .container .main_product_inner  {
+    text-align: -webkit-center;
+  }
+  
+  .main_product_area .container .main_product_inner_shopcar_mb {
+    margin-top:35px;
+  }
+  
+  .car_list_more_info {
+    width:69vw;
+  }
+  
+  .main_car_details_description_optional_content_row {
+    height: auto !important;
+  }
+
+/*   end car list  */
+
+}
+
+.nav-menu .tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.nav-menu .tooltip {
+ display: none;
+}
+
+
+
+
+
+
+

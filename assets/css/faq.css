@@ -1,0 +1,138 @@
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/Gotham/GothamBook.eot');
+	src: url('fonts/Gotham/GothamBook.woff') format('woff'), url('fonts/Gotham/GothamBook.ttf') format('truetype');
+}
+
+
+.main_bat_faq_img_area .bat_faq_img {
+top: 143px;
+left: 795px;  
+}
+
+.main_how_sell_box_area1 .bat_faq_img {
+top: 143px;
+left: 830px;    
+}
+
+.main_interactive_faq_area {
+position: absolute;
+width: 2440px;
+height: 798px;
+left: 0px;
+top: 798px;
+background: #171B21;
+}
+
+.main_interactive_faq_area_bg {
+position: absolute;
+width: 2440px;
+height: 798px;
+left: 0px;
+top: 0px;   
+}
+
+.main_interactive_faq_area_ask_box {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+
+position: absolute;
+width: 777px;
+height: 496px;
+left: 520px;
+top: 119px;  
+}
+
+.main_interactive_faq_area_ask_button_box {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+position: static;
+width: 777px;
+height: 72px;
+left: 0px;
+top: 0px;
+/* Inside auto layout */
+flex: none;
+/* order: 0; */
+align-self: stretch;
+flex-grow: 0;
+margin: 24px 0px;  
+}
+
+.main_interactive_faq_area_ask_button_box button:first-child {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 380.5px;
+height: 72px;
+left: 0px;
+top: 0px;
+background: #FCB200;
+border: 2px solid #FCB200;
+box-sizing: border-box;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+/* order: 0; */
+align-self: stretch;
+flex-grow: 1;
+/* margin: 0px 16px;   */
+
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+/* Bat/Black/001 */
+
+color: #1D232B;
+
+}
+
+.main_interactive_faq_area_ask_button_box button:nth-child(2) {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px;
+position: static;
+width: 380.5px;
+height: 72px;
+left: 396.5px;
+top: 0px;
+background: #171B21;
+border: 1px solid rgba(255, 255, 255, 0.1);
+box-sizing: border-box;
+border-radius: 10px;
+/* Inside auto layout */
+flex: none;
+/* order: 1; */
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 16px;
+
+font-family: "Gotham", system-ui;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 120%;
+/* or 19px */
+color: rgba(255, 255, 255, 0.3);
+}
+
+.main_interactive_faq_area .main_bat_faq_questions_area {
+left: 0px;
+top: 110px;  
+}
+
+.main_interactive_faq_area .main_bat_faq_questions_content {
+width: 810px;
+} 
