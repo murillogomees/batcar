@@ -70,7 +70,7 @@ class Email extends PHPMailer{
       $mail->SMTPAuth = true;
       $mail->SMTPSecure = 'tls';
       $mail->Username = 'atendimento@batcar.com';
-      $mail->Password = 'zuiatwczlckltdgu';
+      $mail->Password = 'zulckltdgu';
       $mail->Port = 587;
       $mail->CharSet = "UTF-8"; 
       $mail->setFrom('batcar');
